@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    padding: 10px;
+}
+
+.titulo{
+    color: aliceblue;
+
+}
+
+header {
+    background-image: url(../design1_image2.jpg);
+    height: 500px;
+    display: block;
+    align-items: end;
+}
+
+nav{
+    display: block;
+    text-align: end;
+    margin-right: 5%;
+
+    
+}
+
+.principal{
+    display: block;
+    padding-right: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+div a{
+    color: blue;
+    text-decoration: none;
+}
+
+
+.boton1 {
+    color: black;
+    background-color: green;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+}
+.boton1:hover {
+    color: black;
+    background-color: blue;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+}
+.boton2 {
+    color: black;
+    background-color: blue;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+    
+}
+.boton2:hover {
+    color: black;
+    background-color: green;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+    
+}
+.boton3 {
+    color: black;
+    background-color: blue;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+}
+.boton3:hover {
+    background-color: green;
+    font-weight:bold;
+    padding: 10px;
+}
+
+.titulo {
+    display: block;
+    background-color: blue;
+    text-align: center;
+    border-color: black;
+}
+
+p{
+    display: inline;
+    margin-left: 20px;
+}
+
+img{
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    display: block;
+    
+}
+
+section {
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-bottom: 10%;
+}
+
+article{
+    padding: 1%;
+}
