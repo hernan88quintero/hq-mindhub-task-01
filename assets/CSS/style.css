@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 h1{
@@ -14,8 +15,10 @@ h1{
 
 header {
     background-image: url(/assets/img/design1_image2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
     height: 500px;
-    display: block;
+    display: flexbox;
     align-items: end;
 }
 
@@ -117,7 +120,8 @@ img{
 }
 
 .container {
-    display: block;
+    display: flex;
+    justify-content: baseline;
     
 }
 
@@ -131,4 +135,29 @@ section {
 
 article{
     padding: 1%;
+}
+
+.titulo-rules-h2{
+    display: block;
+    color: blueviolet;
+    text-align: center;
+}
+
+.titulo-rules-h3{
+    display: block;
+    color: green;
+    text-align: center;
+    margin-top: 2%;
+}
+
+main{
+    display: flexbox;
+    justify-content: center;
+}
+
+.nuevo{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
 }
