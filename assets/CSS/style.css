@@ -83,6 +83,19 @@ div a{
     padding: 10px;
 }
 
+.boton4 {
+    color: black;
+    background-color: blue;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+}
+.boton4:hover {
+    background-color: green;
+    font-weight:bold;
+    padding: 10px;
+}
+
 .titulo {
     display: block;
     background-color: blue;
