@@ -1,8 +1,9 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
 
 h1{
     padding: 10px;
@@ -21,6 +22,10 @@ header {
     display: flexbox;
     align-items: end;
 }
+
+#miDiv {
+    text-align: center;
+  }
 
 nav{
     display: block;
@@ -161,3 +166,105 @@ main{
     margin: 20px;
 
 }
+
+  
+  /* Estilo del encabezado */
+  header {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* Estilo de las listas */
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+  
+  dl {
+    margin-left: 20px;
+  }
+  
+  dt {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  dd {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo de los párrafos */
+  p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo de la sección de reglas de juego */
+  #rules {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  #rules h2 {
+    margin-top: 0;
+  }
+  
+  #rules ul {
+    margin-bottom: 20px;
+  }
+  
+  #rules ol {
+    margin-bottom: 20px;
+  }
+  
+  #rules dl {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de la sección de reglas de campos */
+  #fields {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  #fields h2 {
+    margin-top: 0;
+  }
+  
+  #fields ul {
+    margin-bottom: 20px;
+  }
+  
+  #fields ol {
+    margin-bottom: 20px;
+  }
+  
+  #fields dl {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de la sección de all-play */
+  #allplay {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  #allplay h2 {
+    margin-top: 0;
+  }
+  
+  #allplay p {
+    margin-bottom: 20px;
+  }
+  
