@@ -49,7 +49,7 @@ div a{
 
 
 .boton1 {
-    color: black;
+    color: rgb(209, 202, 202);
     background-color: green;
     font-weight:bold;
     padding: 10px;
@@ -63,7 +63,7 @@ div a{
     border-radius: 25%;
 }
 .boton2 {
-    color: black;
+    color: rgb(209, 202, 202);
     background-color: blue;
     font-weight:bold;
     padding: 10px;
@@ -79,7 +79,7 @@ div a{
     
 }
 .boton3 {
-    color: black;
+    color: rgb(209, 202, 202);
     background-color: blue;
     font-weight:bold;
     padding: 10px;
@@ -93,7 +93,7 @@ div a{
 }
 
 .boton4 {
-    color: black;
+    color: rgb(209, 202, 202);
     background-color: blue;
     font-weight:bold;
     padding: 10px;
@@ -155,10 +155,6 @@ article{
     margin-top: 2%;
 }
 
-main{
-    display: flexbox;
-    justify-content: center;
-}
 
 .nuevo{
     display: flex;
@@ -172,25 +168,51 @@ main{
   header {
     background-color: #003366;
     color: #ffffff;
-    padding: 10px;
   }
   
   h1 {
     font-size: 36px;
     margin: 0;
+    
   }
+
   
+  #titulo-h3 {
+    text-align: left;
+    margin-left: 30px;
+    
+  }
+
   /* Estilo de las listas */
   ul {
     list-style-type: disc;
     margin-left: 20px;
+    text-align: left;
   }
   
   ol {
     list-style-type: decimal;
     margin-left: 20px;
+    text-align: left;
   }
-  
+
+#lista {
+    list-style-type: none;
+    line-height: 1.5;
+    }
+
+.lista-1 {
+      list-style-type: lower-latin;
+      line-height: 1.5;
+      }
+#lista-p{
+  line-height: 1.5;
+}
+
+.lista-play{
+  list-style: circle;
+}
+
   dl {
     margin-left: 20px;
   }
@@ -209,6 +231,10 @@ main{
     line-height: 1.5;
     margin-bottom: 10px;
   }
+  #parrafo {
+    color: green;
+    text-align: left;
+  }
   
   /* Estilo de la sección de reglas de juego */
   #rules {
@@ -222,10 +248,12 @@ main{
   
   #rules ul {
     margin-bottom: 20px;
+    line-height: 1.5;
   }
   
   #rules ol {
     margin-bottom: 20px;
+    line-height: 1.5;
   }
   
   #rules dl {
