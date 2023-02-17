@@ -296,3 +296,41 @@ article{
     margin-bottom: 20px;
   }
   
+  .container-tabla{
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-titulo-1{
+    display: flex;
+    justify-content: start;
+    margin-left: 25%;
+    font-style: italic;
+    
+  }
+  .container-titulo-2{
+    display: flex;
+    justify-content: start;
+    margin-left: 25%;
+    text-decoration:underline;
+    font-style: italic;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  /*Acá inicia el CSS  de la TABLA*/
+  
+  th {
+    font-weight: bold;
+  }
+  
+  td {
+    border: none;
+  }
