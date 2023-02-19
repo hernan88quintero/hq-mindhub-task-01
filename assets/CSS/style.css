@@ -1,0 +1,408 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+h1{
+    padding: 10px;
+}
+
+.titulo{
+    color: aliceblue;
+
+}
+
+header {
+    background-image: url(../img/design1_image2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flexbox;
+    align-items: end;
+}
+
+#miDiv {
+    text-align: center;
+  }
+
+nav{
+    display: block;
+    text-align: end;
+    margin-right: 5%;
+
+    
+}
+
+.principal{
+    display: block;
+    padding-right: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+div a{
+    color: blue;
+    text-decoration: none;
+}
+
+
+.boton1 {
+    color: rgb(209, 202, 202);
+    background-color: green;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+}
+.boton1:hover {
+    color: white;
+    background-color: blue;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+}
+.boton2 {
+    color: rgb(209, 202, 202);
+    background-color: blue;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+    
+}
+.boton2:hover {
+    color: white;
+    background-color: green;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+    
+}
+.boton3 {
+    color: rgb(209, 202, 202);
+    background-color: blue;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+}
+.boton3:hover {
+    color: white;
+    background-color: green;
+    font-weight:bold;
+    padding: 10px;
+}
+
+.boton4 {
+    color: rgb(209, 202, 202);
+    background-color: blue;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+}
+.boton4:hover {
+    color: white;
+    background-color: green;
+    font-weight:bold;
+    padding: 10px;
+}
+
+.titulo {
+    display: block;
+    background-color: blue;
+    text-align: center;
+    border-color: black;
+}
+
+p{
+    display: inline;
+    margin-left: 20px;
+}
+
+img{
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: baseline;
+    
+}
+
+section {
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-bottom: 10%;
+}
+
+article{
+    padding: 1%;
+}
+
+.titulo-rules-h2{
+    display: block;
+    color: blueviolet;
+    text-align: center;
+}
+
+.titulo-rules-h3{
+    display: block;
+    color: green;
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+.nuevo{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+  
+  /* Estilo del encabezado */
+  header {
+    background-color: #003366;
+    color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+    
+  }
+
+  
+  #titulo-h3 {
+    text-align: left;
+    margin-left: 30px;
+    
+  }
+
+  /* Estilo de las listas */
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+#lista {
+    list-style-type: none;
+    line-height: 1.5;
+    }
+
+.lista-1 {
+      list-style-type: lower-latin;
+      line-height: 1.5;
+      }
+#lista-p{
+  line-height: 1.5;
+}
+
+.lista-play{
+  list-style: circle;
+}
+
+  dl {
+    margin-left: 20px;
+  }
+  
+  dt {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  dd {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo de los párrafos */
+  p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  #parrafo {
+    color: green;
+    text-align: left;
+  }
+  
+  /* Estilo de la sección de reglas de juego */
+  #rules {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  #rules h2 {
+    margin-top: 0;
+  }
+  
+  #rules ul {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  #rules ol {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  #rules dl {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de la sección de reglas de campos */
+  #fields {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  #fields h2 {
+    margin-top: 0;
+  }
+  
+  #fields ul {
+    margin-bottom: 20px;
+  }
+  
+  #fields ol {
+    margin-bottom: 20px;
+  }
+  
+  #fields dl {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de la sección de all-play */
+  #allplay {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  #allplay h2 {
+    margin-top: 0;
+  }
+  
+  #allplay p {
+    margin-bottom: 20px;
+  }
+  
+  .container-tabla{
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-titulo-1{
+    display: flex;
+    justify-content: start;
+    margin-left: 25%;
+    font-style: italic;
+    
+  }
+  .container-titulo-2{
+    display: flex;
+    justify-content: start;
+    margin-left: 25%;
+    text-decoration:underline;
+    font-style: italic;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  /*Acá inicia el CSS  de la TABLA*/
+  
+  th {
+    font-weight: bold;
+  }
+  
+  td {
+    border: none;
+  }
+
+/* Estilos del Formulario*/  
+
+/* Estilos para el contenedor principal */
+.form-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 0px;
+}
+
+input[type="text"], input[type="date"], input[type="checkbox"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+
+input#street-address {
+  margin-top: 2%;
+  padding-right: 49.5%;
+}
+.citycode-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  padding-left:0%;
+  padding-right: 20%;
+}
+
+.gender{
+  margin-left: 5%;
+}
+.birth{
+  margin-left: 0%;
+}
+
+
+.gender-container {
+  display:flex;
+  justify-content: flex-start;
+  margin-top: 2%;
+  padding-left:0%;
+  padding-right: 0%;
+}
+
+.gender-container label {
+  margin-left: 5px;
+}
+
+.small-letter {
+  font-size: 12px;
+}
+
+.grade-container {
+  display: flex;
+  margin-top: 2%;
+}
+
+.grade-container label {
+  margin-left: 10px;
+}
+
