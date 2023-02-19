@@ -3,15 +3,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color:  #116530;
+    color: #FFCC1D;
   }
 
 h1{
     padding: 10px;
+    background-color: #FFCC1D;
+    color: #0B4619;
 }
 
 .titulo{
-    color: aliceblue;
-
+    color: #FFCC1D;
+    background-color: white;
 }
 
 header {
@@ -35,82 +39,107 @@ nav{
     
 }
 
-.principal{
-    display: block;
-    padding-right: 10px;
-    margin-left: 0%;
-    margin-right: 0%;
+.principal {
+  max-width: 700px;
+  margin: 0 auto;
 }
+
 
 div a{
     color: blue;
     text-decoration: none;
 }
 
+.botonForm {
+  color: #FFCC1D;;    
+  background-color: #0B4619;
+  border-color: #116530;
+    font-weight:bold;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25%;
+    margin-top: 10px;
+    margin-right: 40%;
+    margin-bottom: 5rem;
+    margin-left: 40%;
+}
+
+.botonForm:hover {
+  color: #0B4619;    
+  background-color: #FFCC1D;
+  border-color: #E8E8CC;
+  font-weight:bold;
+  padding: 10px;
+  border-radius: 25%;
+  margin-top: 10px;
+  margin-right: 40%;
+  margin-bottom: 5rem;
+  margin-left: 40%;
+}
 
 .boton1 {
-    color: rgb(209, 202, 202);
-    background-color: green;
+    color: #FFCC1D;    
+    background-color: #0B4619;
     font-weight:bold;
     padding: 10px;
     border-radius: 25%;
 }
 .boton1:hover {
-    color: white;
-    background-color: blue;
+    color: #E8E8CC;
+    background-color: #116530;
     font-weight:bold;
     padding: 10px;
     border-radius: 25%;
 }
 .boton2 {
-    color: rgb(209, 202, 202);
-    background-color: blue;
+  color: #FFCC1D;    
+  background-color: #0B4619;
     font-weight:bold;
     padding: 10px;
     border-radius: 25%;
     
 }
 .boton2:hover {
-    color: white;
-    background-color: green;
+  color: #E8E8CC;
+  background-color: #116530;
     font-weight:bold;
     padding: 10px;
     border-radius: 25%;
     
 }
 .boton3 {
-    color: rgb(209, 202, 202);
-    background-color: blue;
+  color: #FFCC1D;    
+  background-color: #0B4619;
     font-weight:bold;
     padding: 10px;
     border-radius: 25%;
 }
 .boton3:hover {
-    color: white;
-    background-color: green;
+  color: #E8E8CC;
+  background-color: #116530;
     font-weight:bold;
     padding: 10px;
 }
 
 .boton4 {
-    color: rgb(209, 202, 202);
-    background-color: blue;
+  color: #FFCC1D;    
+  background-color: #0B4619;
     font-weight:bold;
     padding: 10px;
     border-radius: 25%;
 }
 .boton4:hover {
-    color: white;
-    background-color: green;
+  color: #E8E8CC;
+  background-color: #116530;
     font-weight:bold;
     padding: 10px;
 }
 
 .titulo {
     display: block;
-    background-color: blue;
+    background-color: #116530;
     text-align: center;
-    border-color: black;
+    border-color: FFCC1D;
 }
 
 p{
@@ -140,12 +169,6 @@ section {
 
 article{
     padding: 1%;
-}
-
-.titulo-rules-h2{
-    display: block;
-    color: blueviolet;
-    text-align: center;
 }
 
 .titulo-rules-h3{
@@ -353,11 +376,13 @@ label {
 }
 
 input[type="text"], input[type="date"], input[type="checkbox"] {
+  background-color: #E8E8CC;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 3px;
   font-size: 16px;
   margin-top: 5px;
+  
 }
 
 
@@ -365,12 +390,17 @@ input#street-address {
   margin-top: 2%;
   padding-right: 49.5%;
 }
+
+input#city {
+  margin-top: 2%;
+  padding-right: 8rem;
+}
 .citycode-container {
   display: flex;
   justify-content: space-between;
   margin-top: 2%;
   padding-left:0%;
-  padding-right: 20%;
+  padding-right: 5%;
 }
 
 .gender{
@@ -395,6 +425,7 @@ input#street-address {
 
 .small-letter {
   font-size: 12px;
+  margin-left: 0px;
 }
 
 .grade-container {
@@ -405,4 +436,32 @@ input#street-address {
 .grade-container label {
   margin-left: 10px;
 }
+
+.preSchool {
+  margin-right: 20px;
+}
+
+
+/* Checkbox del multiple chooise */
+
+.checkbox-container {
+  display: flex;
+  justify-content: flex-start;
+  padding:0%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.checkbox-text {
+  margin-left: 5px;
+}
+
+p {
+  text-align: justify;
+}
+
 
