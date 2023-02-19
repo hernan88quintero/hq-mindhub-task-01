@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+
+    <title>Form</title>
+</head>
+<body>
+  <!--  <h1>Mighty Ducks Hockey League</h1>
+    <header>
+        <nav>
+            <div>
+                <a class="boton1" href="./index.html">Home</a>  <a class="boton2" href="./about.html">About MDHL</a> <a class="boton2" href="./game.html">Games</a> <a class="boton2" href="#">Form</a> <a class="boton3" href="./contact.html">Contact</a> <a class="boton4" href="./rules.html">Rules</a>
+            </div>
+        </nav>
+    </header> -->
+
+    <div class="titulo">
+        <h2>Form</h2>
+    </div>
+
+
+    <div class="form-container">
+        <form>
+            <div>
+                <label for="first-name">Player's First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>  
+                   
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+      
+            <div class="street-container">
+                <label for="street-address">Street Address:</label>
+                <input type="text" id="street-address" name="street-address" required>  
+            </div>
+
+          <div class="citycode-container">
+            <div>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            
+            <div>
+                <label for="zip-code">Zip Code:</label>
+                <input type="text" id="zip-code" name="zip-code" required>
+            </div>
+          </div>
+      
+
+          <div class="gender-container">
+
+            <div class="birth">
+                <label for="birth-date">Birth Date:</label>
+                <input type="date" id="birth-date" name="birth-date" required>      
+
+            </div>     
+          
+          <div class="gender">
+            <label for="gender">Gender:</label>
+          
+            <input type="checkbox" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+      
+            <input type="checkbox" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+          </div>
+      
+         
+          </div>
+      
+      
+          <div class="grade-container">
+            <label for="grade">Grade:</label>
+            <input type="checkbox" id="grade" name="grade" value="grade">
+
+            <label for="grade" class="preSchool">Pre-School</label>
+            <input type="checkbox" id="1st" name="1st" value="1st">
+            <label for="1st"><span class="small-letter">1st</span></label>
+      
+            <input type="checkbox" id="2nd" name="2nd" value="2nd">
+            <label for="2nd"><span class="small-letter">2nd</span></label>
+      
+            <input type="checkbox" id="3rd" name="3rd" value="3rd">
+            <label for="3rd"><span class="small-letter">3rd</span></label>
+      
+            <input type="checkbox" id="4th" name="4th" value="4th">
+            <label for="4th"><span class="small-letter">4th</span></label>
+      
+            <input type="checkbox" id="5th" name="5th" value="5th">
+            <label for="5th"><span class="small-letter">5th</span></label>
+          </div>
+      
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      
+
+    
+</body>
+</html>

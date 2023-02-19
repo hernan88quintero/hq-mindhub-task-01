@@ -334,3 +334,75 @@ article{
   td {
     border: none;
   }
+
+/* Estilos del Formulario*/  
+
+/* Estilos para el contenedor principal */
+.form-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 0px;
+}
+
+input[type="text"], input[type="date"], input[type="checkbox"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+
+input#street-address {
+  margin-top: 2%;
+  padding-right: 49.5%;
+}
+.citycode-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  padding-left:0%;
+  padding-right: 20%;
+}
+
+.gender{
+  margin-left: 5%;
+}
+.birth{
+  margin-left: 0%;
+}
+
+
+.gender-container {
+  display:flex;
+  justify-content: flex-start;
+  margin-top: 2%;
+  padding-left:0%;
+  padding-right: 0%;
+}
+
+.gender-container label {
+  margin-left: 5px;
+}
+
+.small-letter {
+  font-size: 12px;
+}
+
+.grade-container {
+  display: flex;
+  margin-top: 2%;
+}
+
+.grade-container label {
+  margin-left: 10px;
+}
+
