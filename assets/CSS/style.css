@@ -254,6 +254,13 @@ article{
     line-height: 1.5;
     margin-bottom: 10px;
   }
+
+  #gamesP {
+    text-align: end;
+    margin-left: 2px;
+  }
+
+
   #parrafo {
     color: green;
     text-align: left;
@@ -325,16 +332,10 @@ article{
   }
 
   .container-titulo-1{
-    display: flex;
-    justify-content: start;
-    margin-left: 25%;
     font-style: italic;
     
   }
   .container-titulo-2{
-    display: flex;
-    justify-content: start;
-    margin-left: 25%;
     text-decoration:underline;
     font-style: italic;
   }
