@@ -1,104 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/CSS/style.css">
 
-    <title>Form</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/CSS/style.css" />
+
+  <title>Form</title>
 </head>
+
 <body>
-  <!--  <h1>Mighty Ducks Hockey League</h1>
+  <h1>Mighty Ducks Hockey League</h1>
     <header>
         <nav>
             <div>
                 <a class="boton1" href="./index.html">Home</a>  <a class="boton2" href="./about.html">About MDHL</a> <a class="boton2" href="./game.html">Games</a> <a class="boton2" href="#">Form</a> <a class="boton3" href="./contact.html">Contact</a> <a class="boton4" href="./rules.html">Rules</a>
             </div>
         </nav>
-    </header> -->
+    </header>
 
     <div class="titulo">
-        <h2>Form</h2>
-    </div>
+      <h2>Form</h2>
+      <h1>Mighty Ducks Hockey League</h1>
+  </div>>
 
+  <div class="form-container">
+    <form action="./show_data.html">
+      <div>
+        <label for="first-name">Player's First Name:</label>
+        <input type="text" id="first-name" name="first-name" required />
 
-    <div class="form-container">
-        <form>
-            <div>
-                <label for="first-name">Player's First Name:</label>
-                <input type="text" id="first-name" name="first-name" required>  
-                   
-                <label for="last-name">Last Name:</label>
-                <input type="text" id="last-name" name="last-name" required>
-            </div>
-      
-            <div class="street-container">
-                <label for="street-address">Street Address:</label>
-                <input type="text" id="street-address" name="street-address" required>  
-            </div>
-
-          <div class="citycode-container">
-            <div>
-                <label for="city">City:</label>
-                <input type="text" id="city" name="city" required>
-            </div>
-            
-            <div>
-                <label for="zip-code">Zip Code:</label>
-                <input type="text" id="zip-code" name="zip-code" required>
-            </div>
-          </div>
-      
-
-          <div class="gender-container">
-
-            <div class="birth">
-                <label for="birth-date">Birth Date:</label>
-                <input type="date" id="birth-date" name="birth-date" required>      
-
-            </div>     
-          
-          <div class="gender">
-            <label for="gender">Gender:</label>
-          
-            <input type="checkbox" id="female" name="gender" value="female">
-            <label for="female">Female</label>
-      
-            <input type="checkbox" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-          </div>
-      
-         
-          </div>
-      
-      
-          <div class="grade-container">
-            <label for="grade">Grade:</label>
-            <input type="checkbox" id="grade" name="grade" value="grade">
-
-            <label for="grade" class="preSchool">Pre-School</label>
-            <input type="checkbox" id="1st" name="1st" value="1st">
-            <label for="1st"><span class="small-letter">1st</span></label>
-      
-            <input type="checkbox" id="2nd" name="2nd" value="2nd">
-            <label for="2nd"><span class="small-letter">2nd</span></label>
-      
-            <input type="checkbox" id="3rd" name="3rd" value="3rd">
-            <label for="3rd"><span class="small-letter">3rd</span></label>
-      
-            <input type="checkbox" id="4th" name="4th" value="4th">
-            <label for="4th"><span class="small-letter">4th</span></label>
-      
-            <input type="checkbox" id="5th" name="5th" value="5th">
-            <label for="5th"><span class="small-letter">5th</span></label>
-          </div>
-      
-          <button type="submit">Submit</button>
-        </form>
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required />
       </div>
-      
 
-    
+      <div class="street-container">
+        <label for="street-address">Street Address:</label>
+        <input type="text" id="street-address" name="street-address" required />
+      </div>
+
+      <div class="citycode-container">
+        <div>
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" required />
+        </div>
+
+        <div>
+          <label for="zip-code">Zip Code:</label>
+          <input type="text" id="zip-code" name="zip-code" required />
+        </div>
+      </div>
+
+      <div class="gender-container">
+        <div class="birth">
+          <label for="birth-date">Birth Date:</label>
+          <input type="date" id="birth-date" name="birth-date" required />
+        </div>
+
+        <div class="gender">
+          <label for="gender">Gender:</label>
+
+          <input type="checkbox" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+
+          <input type="checkbox" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+        </div>
+      </div>
+
+      <div class="grade-container">
+        <label for="grade">Grade:</label>
+        <input type="checkbox" id="grade" name="grade" value="grade" />
+
+        <label for="grade" class="preSchool">Pre-School</label>
+        <input type="checkbox" id="1st" name="1st" value="1st" />
+        <label for="1st"><span class="small-letter">1st</span></label>
+
+        <input type="checkbox" id="2nd" name="2nd" value="2nd" />
+        <label for="2nd"><span class="small-letter">2nd</span></label>
+
+        <input type="checkbox" id="3rd" name="3rd" value="3rd" />
+        <label for="3rd"><span class="small-letter">3rd</span></label>
+
+        <input type="checkbox" id="4th" name="4th" value="4th" />
+        <label for="4th"><span class="small-letter">4th</span></label>
+
+        <input type="checkbox" id="5th" name="5th" value="5th" />
+        <label for="5th"><span class="small-letter">5th</span></label>
+      </div>
+
+      <h3>Which elementary school do yo live near?</h3>
+
+      <h4>Closest School:</h4>
+
+      <div class="checkbox-container">
+        <div class="column">
+          <div>
+            <input type="checkbox" id="Katzenmaier" name="Katzenmaier" value="Katzenmaier" />
+            <label for="Katzenmaier"><span class="checkbox-text">AJ Katzenmaier</span></label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="Greenbay" name="Greenbay" value="Greenbay" />
+            <label for="Greenbay"><span class="checkbox-text">Greenbay</span></label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="Howard" name="Howard" value="Howard" />
+            <label for="Howard"><span class="checkbox-text">Howard A Yeager</span></label>
+          </div>
+        </div>
+
+        <div class="column">
+          <div>
+            <input type="checkbox" id="Marjorie" name="Marjorie" value="Marjorie" />
+            <label for="Marjorie"><span class="checkbox-text">Marjorie P Hart</span></label>
+          </div>
+          <div>
+            <input type="checkbox" id="North" name="North" value="North" />
+            <label for="North"><span class="checkbox-text">North Elemnentary</span></label>
+          </div>
+          <div>
+            <input type="checkbox" id="South" name="South" value="South" />
+            <label for="South"><span class="checkbox-text">South Elementary</span></label>
+          </div>
+        </div>
+      </div>
+
+
+      <h4>What  position(s) do you normally play? (check all that apply):</h4>
+
+      <div class="checkbox-container">
+        <div class="column">
+          <div>
+            <input type="checkbox" id="Forward" name="Forward" value="Forward" />
+            <label for="Forward"><span class="checkbox-text">Forward</span></label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="Defense" name="Defense" value="Defense" />
+            <label for="Defense"><span class="checkbox-text">Defense</span></label>
+          </div>
+        </div>
+
+        <div class="column">
+          <div>
+            <input type="checkbox" id="Midfield" name="Midfield" value="Midfield" />
+            <label for="Midfield"><span class="checkbox-text">Midfield</span></label>
+          </div>
+          <div>
+            <input type="checkbox" id="Goalkeeper" name="Goalkeeper" value="Goalkeeper" />
+            <label for="Goalkeeper"><span class="checkbox-text">Goalkeeper</span></label>
+          </div>
+        </div>
+      </div>
+
+      <h4>Uniform Size:</h4>
+
+      <div class="checkbox-container">
+        <div class="column">
+          <div>
+            <input type="checkbox" id="Small" name="Small" value="SmallY" />
+            <label for="Small"><span class="checkbox-text">Youth Small</span></label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="Medium" name="Medium" value="MediumY" />
+            <label for="Medium"><span class="checkbox-text">Youth Medium</span></label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="Large" name="Large" value="LargeY" />
+            <label for="Large"><span class="checkbox-text">Youth Large</span></label>
+          </div>
+          <div>
+            <input type="checkbox" id="Small" name="Small" value="Small" />
+            <label for="Small"><span class="checkbox-text">Small</span></label>
+          </div>
+        </div>
+
+        <div class="column">
+          <div>
+            <input type="checkbox" id="Medium" name="Medium" value="Medium" />
+            <label for="Medium"><span class="checkbox-text">Medium</span></label>
+          </div>
+          <div>
+            <input type="checkbox" id="Large" name="Large" value="Large" />
+            <label for="Large"><span class="checkbox-text">Large</span></label>
+          </div>
+          <div>
+            <input type="checkbox" id="Extra" name="Extra" value="Extra" />
+            <label for="Extra"><span class="checkbox-text">Extra-Large</span></label>
+          </div>
+        </div>
+      </div>
+
+      <h5><b>Permission to Play</b></h5>
+
+      
+        <p>
+          I, the parent or guardiasn of the minor registrant, agree that the registrant and i will aide by all the rules os the Mighty Ducks Hockey League (MDHL).In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" acceping the resgistrant for its hockey programs and activities , I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf oof the registrant as a result of the registrant´s participation in the program/orbeing transported to or from MDHL sponsored activities, which transportation. <br>
+        By signing below, I here by agree and authorize the above.In addition, by signing below, i also knowledge tahat I have read the cancellation policy and agree to its terms.
+        </p>
+
+        <div class="street-container">
+          <label for="street-address">Parent/Guardian Signature: </label>
+          <input type="text" id="signature" name="street-address" required />
+        </div>
+
+        <div class="date-signature">
+          <label for="date-sig">Date:</label>
+          <input type="date" id="date-sig" name="date-sig" required />
+        </div>
+        
+      <input type="submit" class="botonForm">
+    </form>
+  </div>
 </body>
+
 </html>
