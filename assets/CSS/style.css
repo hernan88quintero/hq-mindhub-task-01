@@ -44,6 +44,14 @@ nav{
   margin: 0 auto;
 }
 
+.eventos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rem;
+  margin-right: 2rem;
+
+}
+
 
 div a{
     color: blue;
