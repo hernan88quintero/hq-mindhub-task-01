@@ -208,7 +208,7 @@ article{
   }
 
   
-  #titulo-h3 {
+  .titulo-h3 {
     text-align: left;
     margin-left: 30px;
     
@@ -227,7 +227,7 @@ article{
     text-align: left;
   }
 
-#lista {
+.lista {
     list-style-type: none;
     line-height: 1.5;
     }
@@ -236,7 +236,7 @@ article{
       list-style-type: lower-latin;
       line-height: 1.5;
       }
-#lista-p{
+.lista-p{
   line-height: 1.5;
 }
 
