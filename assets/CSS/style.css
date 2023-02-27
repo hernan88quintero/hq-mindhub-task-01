@@ -99,13 +99,20 @@ div a{
     padding: 10px;
     border-radius: 25%;
 }
+.boton1:focus{
+    color: #E8E8CC;
+    background-color: #116530;
+}
+.boton1:active{
+  color: #E8E8CC;
+  background-color: #116530;
+}
 .boton2 {
   color: #FFCC1D;    
   background-color: #0B4619;
     font-weight:bold;
     padding: 10px;
-    border-radius: 25%;
-    
+    border-radius: 25%;    
 }
 .boton2:hover {
   color: #E8E8CC;
@@ -113,7 +120,14 @@ div a{
     font-weight:bold;
     padding: 10px;
     border-radius: 25%;
-    
+}
+.boton2:focus{
+  color: #E8E8CC;
+  background-color: #116530;
+}
+.boton2:active{
+  color: #E8E8CC;
+  background-color: #116530;
 }
 .boton3 {
   color: #FFCC1D;    
@@ -128,6 +142,14 @@ div a{
     font-weight:bold;
     padding: 10px;
 }
+.boton3:focus{
+  color: #E8E8CC;
+  background-color: #116530;
+}
+.boton3:active{
+  color: #E8E8CC;
+  background-color: #116530;
+}
 
 .boton4 {
   color: #FFCC1D;    
@@ -141,6 +163,58 @@ div a{
   background-color: #116530;
     font-weight:bold;
     padding: 10px;
+}
+.boton4:focus{
+  color: #E8E8CC;
+  background-color: #116530;
+}
+.boton4:active{
+  color: #E8E8CC;
+  background-color: #116530;
+}
+
+.boton5 {
+  color: #FFCC1D;    
+  background-color: #0B4619;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+}
+.boton5:hover {
+  color: #E8E8CC;
+  background-color: #116530;
+    font-weight:bold;
+    padding: 10px;
+}
+.boton5:focus{
+  color: #E8E8CC;
+  background-color: #116530;
+}
+.boton5:active{
+  color: #E8E8CC;
+  background-color: #116530;
+}
+
+.boton6 {
+  color: #FFCC1D;    
+  background-color: #0B4619;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 25%;
+}
+.boton6:hover {
+  color: #E8E8CC;
+  background-color: #116530;
+    font-weight:bold;
+    padding: 10px;
+}
+.boton6:focus{
+  color: #E8E8CC;
+  background-color: #116530;
+}
+.boton6:active{
+  color: #E8E8CC;
+  background-color: #116530;
 }
 
 .titulo {
